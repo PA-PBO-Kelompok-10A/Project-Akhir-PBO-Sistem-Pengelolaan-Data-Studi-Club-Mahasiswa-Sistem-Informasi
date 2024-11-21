@@ -62,7 +62,7 @@ B. Admin dan Study Club
 
     > Setiap admin harus mendata oleh satu dan hanya satu Study Club
     
-    > Setiap Study Club harus didata oleh satu dan banyak pengajar
+    > Setiap Study Club harus didata oleh satu dan banyak admin
 
 C. Penanggung Jawab dan Study Club 
 
