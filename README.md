@@ -170,6 +170,8 @@ Hirarki kelas dibuat berdasarkan program aplikasi yang telah dibuat, dalam aplik
 
 ##  4. SCREENSHOT CODINGAN DAN PENJELASAN
 
+### Package Controller
+
 -  LoginController
   
     mengimpor model dari Database,Admin,dan Mahasiswa yang digunakan untuk memanggil data dari database , kemudian untuk Admin dan Mahasiswa digunakan untuk memanggil atribut berupa ID user dan password dari kedua objek tersebut yang nantinya dipanggil untuk login. lalu mengimpor javax.swing.JOptionPane; untuk digunakan dalam inputan dan pesan.
@@ -187,9 +189,18 @@ Login Controller berfungsi untuk melakukan authentifikasi terhadap akun user yan
 
 ![image](https://github.com/user-attachments/assets/54a2c311-2448-47f5-94b8-333a2197f4cf)
 
+
+### Package Model
+
+-User.java
+
+Kelas user adalah super kelas yang berfungsi untuk menyimpan atribut umum yang nantinya akan diturunkan kepada masing masing subclass yaitu admin dan juga Mahasiswa.
+
+![image](https://github.com/user-attachments/assets/8c7de3ac-4810-47ff-8eaa-0b8b986b4f04)
+
 -  Admin.java
 
-    Pada gambar dibawah ini merupakan kode untuk mengimpor HeadlessException yang befungsi jika aplikasi dijalankan tanpa ada dukungan tampilan grafis maka disitulah HeadlessException ini berfungsi, kemudian SQLException berfungsi untuk menampilkan kesalahan yang terjadi pada operasi sistem, dan yang terakhir JOptionPane untuk melakukan inputan dan juga menampilkan pesan.
+    Pada gambar dibawah ini merupakan kode untuk mengimpor HeadlessException yang befungsi jika aplikasi dijalankan tanpa ada dukungan tampilan grafis maka disitulah HeadlessException ini berfungsi, kemudian SQLException berfungsi untuk menampilkan kesalahan yang terjadi pada operasi sistem berkaitan database, dan yang terakhir JOptionPane untuk melakukan inputan dan juga menampilkan pesan.
 
 ![image](https://github.com/user-attachments/assets/28c0ed8e-74f2-4475-aed1-87de3ea642fe)
 
@@ -208,7 +219,7 @@ Metode login pada admin digunakan untuk mencoba login ke database dengan memerik
 
 - Mahasiswa.java
 
-    Pada gambar dibawah ini merupakan kode untuk mengimpor HeadlessException yang befungsi jika aplikasi dijalankan tanpa ada dukungan tampilan grafis maka disitulah HeadlessException ini berfungsi, kemudian SQLEcxeption berfungsi untuk menampilkan kesalahan yang terjadi pada operasi sistem, dan yang terakhir JOptionPane untuk melakukan inputan dan juga menampilkan pesan.
+    Pada gambar dibawah ini merupakan kode untuk mengimpor HeadlessException yang befungsi jika aplikasi dijalankan tanpa ada dukungan tampilan grafis maka disitulah HeadlessException ini berfungsi, kemudian SQLException berfungsi untuk menampilkan kesalahan yang terjadi pada operasi sistem berkaitan database, dan yang terakhir JOptionPane untuk melakukan inputan dan juga menampilkan pesan.
 
 ![image](https://github.com/user-attachments/assets/6e45e206-b36d-4f8b-9724-67d25f8d3d88)
 
@@ -228,7 +239,7 @@ kemudian dibawah ini terdapat daftarMahasiswa yang berfungsi untuk menambahkan d
 
 -  PenanggungJawab.java
 
-    Pada gambar dibawah ini merupakan kode untuk mengimpor HeadlessException yang befungsi jika aplikasi dijalankan tanpa ada dukungan tampilan grafis maka disitulah HeadlessException ini berfungsi, kemudian SQLEcxeption berfungsi untuk menampilkan kesalahan yang terjadi pada operasi sistem, dan yang terakhir JOptionPane untuk melakukan inputan dan juga menampilkan pesan.
+    Pada gambar dibawah ini merupakan kode untuk mengimpor HeadlessException yang befungsi jika aplikasi dijalankan tanpa ada dukungan tampilan grafis maka disitulah HeadlessException ini berfungsi, kemudian SQLException berfungsi untuk menampilkan kesalahan yang terjadi pada operasi sistem berkaitan database, dan yang terakhir JOptionPane untuk melakukan inputan dan juga menampilkan pesan.
 
 ![image](https://github.com/user-attachments/assets/9ca1cbff-e7b1-408e-9d6d-a95356f1afba)
 
@@ -236,7 +247,59 @@ Kelas penanggung jawab adalah kelas yang berfungsi untuk menyimpan atribut sebag
 
 ![image](https://github.com/user-attachments/assets/9e6abb41-33d5-430d-90b1-0538c269b517)
 
+-  StudyClub.java
 
+    Pada gambar dibawah ini merupakan kode untuk mengimpor Connection yang befungsi untuk melakukan koneksi ke kelas Database, kemudian terdapat import PreparedStatement yang berfungsi untuk menjalankan pernyataan querry SQL dengan paramater yang telah ditentukan, dan yang terakhir terdapat SQLException berfungsi untuk menampilkan kesalahan yang terjadi pada operasi sistem berkaitan database.
+
+![image](https://github.com/user-attachments/assets/900d8d9e-220b-493e-b7d1-464ba4c0f70c)
+
+Kelas StudyClub adalah kelas yang berfungsi untuk menampung atribut-atribut dari Study Club dan juga menyimpan data data sesuai dari masing-masing atribut yang ada, pada kelas ini terdapat beberapa querry yang berfungsi untuk dikelola oleh admin nanti nya.
+
+![image](https://github.com/user-attachments/assets/6ea7431a-55f7-434c-b828-c5b5223ebe0b)
+
+Metode createStudyClub adalah metode yang memiliki fungsi untuk melakukan pembuatan study club dengan cara memanggil querry untuk membuat data dari study club yang nanti nya akan tersimpan kedalam database, terdapat beberapa metode didalam nya:
+
+  - Connection berfungsi menjadi variabel untuk melakukan koneksi ke database.
+  - SQLException berfungsi untuk menampilkan kesalahan yang terjadi pada operasi sistem berkaitan database
+  - Querry INSERT INTO untuk menambahkan data study club
+
+![image](https://github.com/user-attachments/assets/ec97ba03-7d3f-4e62-86ff-721c778918d7)
+
+Kemudian ada metode deleteStudyClub yang berfungsi untuk melakukan penghapusan terhadap data study club dengan cara memanggil querry delete untuk menghapus data dari study club yang nantinya akan tersimpan kedalam database yang terbaru setelah dilakukannya penghapusan data, terdapat beberapa metode didalam nya:
+
+  - Connection berfungsi menjadi variabel untuk melakukan koneksi ke database.
+  - SQLException berfungsi untuk menampilkan kesalahan yang terjadi pada operasi sistem berkaitan database
+  - Querry DELETE untuk menghapus data study club
+
+![image](https://github.com/user-attachments/assets/e554cd39-a5f7-4dd7-a4c7-98b8fd33a401)
+
+Dan yang terakhir ada metode updateStudyClub yang berfungsi untuk memperbarui data study club dengan cara memanggil querry update untuk memperbarui data dari study club yang nanto nya data yang sudah diperbarui akan disimpan ke dalam database terbaru, terdapat beberapa metode didalam nya:
+
+  - Connection berfungsi menjadi variabel untuk melakukan koneksi ke database.
+  - SQLException berfungsi untuk menampilkan kesalahan yang terjadi pada operasi sistem berkaitan database
+  - Querry UPDATE untuk menghapus data study club
+
+![image](https://github.com/user-attachments/assets/289b494a-b254-4f0b-bf1e-f33345234b19)
+
+- Database.java
+
+  di bawah ini merupakan import statement yang mengimpor berbagai kelas dan pustaka yang diperlukan dalam kelas Database untuk menghubungkan dan mengelola database. Berikut penjelasan singkat tentang setiap import:
+
+  -  import java.sql.DriverManager;: Ini mengimpor kelas DriverManager dari paket java.sql. DriverManager digunakan untuk mengelola data study club dan mendapatkan koneksi ke database.
+  -  import java.sql.Connection;: Ini mengimpor kelas Connection dari paket java.sql. Connection digunakan untuk mewakili koneksi ke database.
+  -  import java.sql.SQLException;: Ini mengimpor kelas SQLException dari paket java.sql. SQLException digunakan untuk menangani kesalahan yang terkait dengan database, seperti kesalahan SQL.
+
+![image](https://github.com/user-attachments/assets/44fdc8fa-51b9-431c-8190-251df43e0858)
+
+Kode di bawah mendefinisikan kelas databaseConnection, yang digunakan untuk mengelola koneksi database.Berikut adalah penjelasan singkat tentang kelas databaseConnection dan metodenya:
+
+  -  public Connection connection = null;: Variabel connection adalah objek yang digunakan untuk mewakili koneksi ke database. Ini adalah bagian penting untuk berinteraksi dengan database.
+  -  public Statement statement;, public PreparedStatement preparedStatement;, dan public ResultSet resultSet;: Variabel ini digunakan untuk menyimpan objek Statement, PreparedStatement, dan ResultSet yang digunakan dalam operasi SQL. Ini memungkinkan Anda untuk menjalankan pernyataan SQL dan mengelola hasilnya.
+  -  
+
+![image](https://github.com/user-attachments/assets/debe1675-023a-471a-9102-c54c49220d75)
+
+![image](https://github.com/user-attachments/assets/7f4938ac-1cdb-4b3d-ba70-8c88fc61ff0f)
 
 
 ##  5. SCREENSHOT OUTPUT
