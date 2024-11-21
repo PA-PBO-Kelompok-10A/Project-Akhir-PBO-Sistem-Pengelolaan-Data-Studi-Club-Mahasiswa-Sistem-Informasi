@@ -12,7 +12,7 @@ KELOMPOK 10A
 
 ## Latar Belakang
 
-Study Club Mahasiswa Sitem Informasi adalah
+Di era digital saat ini, pemanfaatan teknologi informasi sangat penting, termasuk dalam lingkungan pendidikan tinggi pada jurusan Sistem Informasi. Pengelolaan data mahasiswa yang efisien menjadi kebutuhan utama, terutama terkait kegiatan study club, baik akademik maupun non-akademik, yang membantu mahasiswa mengembangkan kemampuan dan bersosialisasi.
 
 
 ## Deskripsi Project
@@ -44,8 +44,68 @@ Ketika user login sebagai admin, maka user dapat melakukan pengelolaan terhadap 
 Ketika user login sebagai Mahasiswa, maka user dapat melakukan menampilkan data jenis-jenis study club dan juga jadwal pelaksanaan study club.Jika user memilih menu Study Club maka user akan ditampilkan daftar dari jenis-jenis Study Club yang dibuat oleh Admin. Jika user memilih menu Jadwal Study Club maka user akan ditampilkan jadwal pelaksaan study club berdasarkan jenis-jenis study club. Jika sudah melakukan semua menu pada Mahasiswa, user dapat menekan tombol home agar dapat kembali ke menu Mahasiswa.
 
 ## 2. ERD
+- Relational
+![WhatsApp Image 2024-11-21 at 19 27 47](https://github.com/user-attachments/assets/4b8f563f-7b8a-455a-bfbc-29c82a7a4a2d)
 
+- Logical
+![WhatsApp Image 2024-11-21 at 19 27 48](https://github.com/user-attachments/assets/32c757ad-5718-453f-9144-33cdddaccc80)
 
+- ERDish 
+A. Mahasiswa dan Study Club 
+    1. Setiap mahasiswa dapat mengikuti satu atau banyak study club. 
+    2. Setiap study club harus diikuti oleh satu dan hanya satu mahasiswa
+       
+B. Admin dan Study Club 
+    1. Setiap admin harus mendata oleh satu dan hanya satu Study Club. 
+    2. Setiap Study Club harus didata oleh satu dan banyak pengajar. 
+
+C. Penanggung Jawab dan Study Club 
+    1. Setiap penanggung jawab harus mengurus satu atau banyak Study Club  
+    2. Setiap Study Club harus diurus oleh satu dan hanya satu penanggung jawab. 
+
+- Relasi 
+1. Mahasiswa dengan Study Club : Relasi yang menunjukkan  Bahwa mahasiswa “ikut” study club. Mahasiswa “mengikuti” study club dan  study club “diikuti” mahasiswa.  
+2. Admin dengan Study Club : Relasi yang menunjukkan  Bahwa admin “data” Study Club. Admin “mendata” study club dan study  club “didata” admin. 
+3. Penanggung Jawab dengan Study Club : Relasi yang menunjukkan  Bahwa penanggung jawab “urus” Study Club. Penanggung jawab “mengurus”  Study Club. Study club “diurus” studyy club  
+
+ - Kardinalitas 
+A. Kardinalitas Mahasiswa dan Study Club:  
+    1. Setiap mahasiswa dapat mengikuti satu dan banyak Study Club  (Mahasiswa → Study Club: One-to-Many).  
+    2. Setiap Study Club harus diikuti oleh satu dan hanya satu mahasiswa  (Study Club → Mahasiswa: Many-to-One).  
+
+B. Kardinalitas Admin dan Study Club:  
+    1. Setiap Admin harus mendata satu dan hanya satu Study Club (Admin  → Study Club: One-to-One).  
+    2. Setiap Study Club harus diajar oleh satu dan banyak pengajar (Study  Club → Pengajar: One-to-Many).  
+
+C. Kardinalitas Penanggung Jawab dan Study Club:  
+    1. Setiap penanggung jawab harus mengurus satu atau banyak Study Club  (Penanggung Jawab → Study Club: One to-Many).  
+    2. Setiap Study Club harus diurus oleh satu dan hanya satu penanggung  jawab (Study Club → Penanggung Jawab: Many-to-One). 
+
+- Entitas dan Atribut  
+
+1. Mahasiswa :   
+    > NIM (PK) : Nomor Induk Mahasiswa, atribut unik sebagai identitas utama mahasiswa
+    > nama : Nama lengkap mahasiswa
+    > password : Kata sandi untuk mengakses sistem 
+
+2. Admin :   
+    > id_admin (PK) : Kode unik khusus untuk admin
+    > username : nama penggunak untuk login ke sistem
+    > password : kata sandi untuk akses role admin 
+
+3. Study_Club :   
+    > id_sc (PK) : Identitas unik untuk membedakan setiap study club
+    > nama_sc : Nama dari study club
+    > jadwal_sc : Jadwal kegiatan atau pertemuan study club
+    > kapasitas_sc : Jumlah maksimum anggota yang dapat bergabung dalam study club
+    > penanggungjawab_sc : Nama atau identitas orang yang bertanggung jawab atas study club
+    > deskripsi_sc : Penjelasan singkat mengenai study club
+    > jenis_sc : Kategori atau tipe dari study club, seperti bidang akademik dan non akademik 
+
+4. Penanggung_Jawab :   
+    > NIM (PK) : Kode unik untuk penanggung jawab
+    > nama : Nama dari penanggung jawab
+    > kelas_angkatan : Informasi kelas dan angkatan penanggung jawab 
 
 
 ##  3. HIRARKI KELAS
