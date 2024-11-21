@@ -187,3 +187,39 @@ Hirarki kelas dibuat berdasarkan program aplikasi yang telah dibuat, dalam aplik
 
 ##  5. SCREENSHOT OUTPUT
 
+### Menu Admin
+qwertyuio
+<img width="1276" alt="Tangkapan Layar 2024-11-21 pukul 21 54 30" src="https://github.com/user-attachments/assets/abc6b1c6-0b65-400f-a52c-a3e6bd4c2a39">
+
+qwertyui
+<img width="1280" alt="Tangkapan Layar 2024-11-21 pukul 08 13 13" src="https://github.com/user-attachments/assets/7d4362b5-b7f4-468e-a416-dbe635efd5b8">
+
+qwertyui
+<img width="1281" alt="Tangkapan Layar 2024-11-21 pukul 08 14 54" src="https://github.com/user-attachments/assets/04485182-7120-4454-a147-06ed6336fbe4">
+
+qwertyu
+<img width="1280" alt="Tangkapan Layar 2024-11-21 pukul 08 15 12" src="https://github.com/user-attachments/assets/a3a7d0f0-33fb-466e-8906-67bac97bc9a5">
+
+qwertyu
+<img width="1280" alt="Tangkapan Layar 2024-11-21 pukul 08 16 53" src="https://github.com/user-attachments/assets/46cd8f06-3fce-4595-b6db-35a49595a824">
+
+qwertyui
+<img width="1278" alt="Tangkapan Layar 2024-11-21 pukul 08 17 10" src="https://github.com/user-attachments/assets/31219621-dec5-4b2f-9663-2a3fd280b974">
+
+qwert
+<img width="1276" alt="Tangkapan Layar 2024-11-21 pukul 21 39 38" src="https://github.com/user-attachments/assets/04d8e33c-11d5-4d5b-a87a-698ad7d12cb6">
+
+qwerty
+<img width="1275" alt="Tangkapan Layar 2024-11-21 pukul 21 40 15" src="https://github.com/user-attachments/assets/837c84a0-fa8f-4904-bacf-58f8abaefea3">
+
+asdfghj
+<img width="1271" alt="Tangkapan Layar 2024-11-21 pukul 21 42 35" src="https://github.com/user-attachments/assets/7ae0e7e2-f36a-4c43-86b5-71b716b38da5">
+
+wertyu
+<img width="1274" alt="Tangkapan Layar 2024-11-21 pukul 21 42 54" src="https://github.com/user-attachments/assets/5f1f51b0-92ea-4061-beaf-9a10db23f0e0">
+
+### Mode User
+
+sdfghjk
+
+wertyu
