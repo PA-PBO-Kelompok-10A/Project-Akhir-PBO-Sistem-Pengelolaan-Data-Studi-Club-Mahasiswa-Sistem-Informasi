@@ -52,15 +52,19 @@ Ketika user login sebagai Mahasiswa, maka user dapat melakukan menampilkan data 
 
 - ERDish
   
-A. Mahasiswa dan Study Club\
-    > Setiap mahasiswa dapat mengikuti satu atau banyak study club\
+A. Mahasiswa dan Study Club
+
+    > Setiap mahasiswa dapat mengikuti satu atau banyak study club
+    
     > Setiap study club harus diikuti oleh satu dan hanya satu mahasiswa
        
-B. Admin dan Study Club\
-    > Setiap admin harus mendata oleh satu dan hanya satu Study Club\
+B. Admin dan Study Club
+
+    > Setiap admin harus mendata oleh satu dan hanya satu Study Club
+    
     > Setiap Study Club harus didata oleh satu dan banyak pengajar
 
-C. Penanggung Jawab dan Study Club \
+C. Penanggung Jawab dan Study Club 
 
     > Setiap penanggung jawab harus mengurus satu atau banyak Study Club 
     
