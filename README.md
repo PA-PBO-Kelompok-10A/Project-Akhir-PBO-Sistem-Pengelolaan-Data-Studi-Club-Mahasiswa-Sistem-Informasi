@@ -3,9 +3,6 @@
 KELOMPOK 10A
 
   1.Muhamad Nur Fadilah (2309116001)
-
   2.Fitri Yanti (2309116016)
-
-  2.Adinda Salsabila Naura (2309116023)
-  
-  3.Rofi Hanif Fauzan (2309116026
+  3.Adinda Salsabila Naura (2309116023)
+  4.Rofi Hanif Fauzan (2309116026
