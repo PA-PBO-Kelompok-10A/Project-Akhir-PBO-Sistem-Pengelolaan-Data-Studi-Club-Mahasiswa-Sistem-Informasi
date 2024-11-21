@@ -56,6 +56,12 @@ Ketika user login sebagai Mahasiswa, maka user dapat melakukan menampilkan data 
 
 -  LoginController
 
+![image](https://github.com/user-attachments/assets/34ec2c53-6e9b-4fd0-bc3a-73a163683040)
+
+![image](https://github.com/user-attachments/assets/54a2c311-2448-47f5-94b8-333a2197f4cf)
+
+
+
     
 
 
