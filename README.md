@@ -53,34 +53,34 @@ Ketika user login sebagai Mahasiswa, maka user dapat melakukan menampilkan data 
 - ERDish
   
 A. Mahasiswa dan Study Club\
-    > Setiap mahasiswa dapat mengikuti satu atau banyak study club.
+    > Setiap mahasiswa dapat mengikuti satu atau banyak study club\
     > Setiap study club harus diikuti oleh satu dan hanya satu mahasiswa
        
-B. Admin dan Study Club 
-    > Setiap admin harus mendata oleh satu dan hanya satu Study Club. 
-    > Setiap Study Club harus didata oleh satu dan banyak pengajar. 
+B. Admin dan Study Club\
+    > Setiap admin harus mendata oleh satu dan hanya satu Study Club\
+    > Setiap Study Club harus didata oleh satu dan banyak pengajar
 
-C. Penanggung Jawab dan Study Club 
-    > Setiap penanggung jawab harus mengurus satu atau banyak Study Club  
-    > Setiap Study Club harus diurus oleh satu dan hanya satu penanggung jawab. 
+C. Penanggung Jawab dan Study Club\
+    > Setiap penanggung jawab harus mengurus satu atau banyak Study Club\ 
+    > Setiap Study Club harus diurus oleh satu dan hanya satu penanggung jawab
 
-- Relasi
-> Mahasiswa dengan Study Club : Relasi yang menunjukkan  Bahwa mahasiswa “ikut” study club. Mahasiswa “mengikuti” study club dan  study club “diikuti” mahasiswa.
-> Admin dengan Study Club : Relasi yang menunjukkan  Bahwa admin “data” Study Club. Admin “mendata” study club dan study  club “didata” admin.
+- Relasi\
+> Mahasiswa dengan Study Club : Relasi yang menunjukkan  Bahwa mahasiswa “ikut” study club. Mahasiswa “mengikuti” study club dan  study club “diikuti” mahasiswa.\
+> Admin dengan Study Club : Relasi yang menunjukkan  Bahwa admin “data” Study Club. Admin “mendata” study club dan study  club “didata” admin.\
 > Penanggung Jawab dengan Study Club : Relasi yang menunjukkan  Bahwa penanggung jawab “urus” Study Club. Penanggung jawab “mengurus”  Study Club. Study club “diurus” studyy club  
 
  - Kardinalitas
    
-A. Kardinalitas Mahasiswa dan Study Club:  
-    > Setiap mahasiswa dapat mengikuti satu dan banyak Study Club  (Mahasiswa → Study Club: One-to-Many).
+A. Kardinalitas Mahasiswa dan Study Club:\
+    > Setiap mahasiswa dapat mengikuti satu dan banyak Study Club  (Mahasiswa → Study Club: One-to-Many).\
     > Setiap Study Club harus diikuti oleh satu dan hanya satu mahasiswa  (Study Club → Mahasiswa: Many-to-One).  
 
-B. Kardinalitas Admin dan Study Club:  
-    > Setiap Admin harus mendata satu dan hanya satu Study Club (Admin  → Study Club: One-to-One).  
+B. Kardinalitas Admin dan Study Club:  \
+    > Setiap Admin harus mendata satu dan hanya satu Study Club (Admin  → Study Club: One-to-One).  \
     > Setiap Study Club harus diajar oleh satu dan banyak pengajar (Study  Club → Pengajar: One-to-Many).  
 
-C. Kardinalitas Penanggung Jawab dan Study Club:  
-    > Setiap penanggung jawab harus mengurus satu atau banyak Study Club  (Penanggung Jawab → Study Club: One to-Many).  
+C. Kardinalitas Penanggung Jawab dan Study Club:  \
+    > Setiap penanggung jawab harus mengurus satu atau banyak Study Club  (Penanggung Jawab → Study Club: One to-Many).  \
     > Setiap Study Club harus diurus oleh satu dan hanya satu penanggung  jawab (Study Club → Penanggung Jawab: Many-to-One). 
 
 - Entitas dan Atribut  
