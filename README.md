@@ -17,24 +17,36 @@ Di era digital saat ini, pemanfaatan teknologi informasi sangat penting, termasu
 
 ### Fitur Utama
 
-CRUD Admin Study Club: Mengizinkan admin untuk menambah, mengubah, dan menghapus informasi study club yang tersedia. \
-Daftar Study Club: Memudahkan pengguna untuk melihat secara detail data dari study club. \
-Jadwal Study Club: Memudahkan pengguna untuk melihat jadwal study club. \ 
+CRUD Admin Study Club: Mengizinkan admin untuk menambah, mengubah, dan menghapus informasi study club yang tersedia. 
+
+Daftar Study Club: Memudahkan pengguna untuk melihat secara detail data dari study club. 
+
+Jadwal Study Club: Memudahkan pengguna untuk melihat jadwal study club. 
 
 ### Kebutuhan Sistem
 
-Java (JDK 22): Bahasa pemrograman yang populer, multiplatform, dan berorientasi objek \ 
-Apache Neatbeans IDE 22/23: Apache NetBeans adalah alat pengembangan komprehensif dengan dukungan untuk beberapa bahasa \ 
-XAMPP: Sebuah software web server yang digunakan untuk mengembangkan dan merancang situs website pada server lokal \ 
-phpMyAdmin: Perangkat lunak open source yang berfungsi untuk mengelola database MySQL dan MariaDB melalui web \ 
-Canva: Platform desain grafis online yang memungkinkan pengguna untuk membuat berbagai jenis materi desain \ 
-OracleDataModeler: Alat grafis gratis yang digunakan untuk membuat, menelusuri, dan mengedit model data \ 
-Draw.io: Perangkat lunak diagram gratis dan sumber terbuka yang dapat digunakan untuk membuat diagram, grafik, dan infografis \ 
-Bizagi Modeler: Perangkat lunak yang digunakan untuk membuat diagram, model, dokumen, dan simulasi proses bisnis secara visual \ 
+Java (JDK 22): Bahasa pemrograman yang populer, multiplatform, dan berorientasi objek 
 
-src: Direktori yang berisi source code Java, termasuk paket Controller, Database, Model, dan View. \ 
-dist: Berisi file JAR yang dapat dijalankan dan library pihak ketiga yang diperlukan untuk menjalankan aplikasi. \ 
-nbproject: Berisi file konfigurasi yang spesifik untuk proyek NetBeans. \ 
+Apache Neatbeans IDE 22/23: Apache NetBeans adalah alat pengembangan komprehensif dengan dukungan untuk beberapa bahasa 
+
+XAMPP: Sebuah software web server yang digunakan untuk mengembangkan dan merancang situs website pada server lokal 
+
+phpMyAdmin: Perangkat lunak open source yang berfungsi untuk mengelola database MySQL dan MariaDB melalui web 
+
+Canva: Platform desain grafis online yang memungkinkan pengguna untuk membuat berbagai jenis materi desain 
+
+OracleDataModeler: Alat grafis gratis yang digunakan untuk membuat, menelusuri, dan mengedit model data 
+
+Draw.io: Perangkat lunak diagram gratis dan sumber terbuka yang dapat digunakan untuk membuat diagram, grafik, dan infografis 
+
+Bizagi Modeler: Perangkat lunak yang digunakan untuk membuat diagram, model, dokumen, dan simulasi proses bisnis secara visual 
+
+
+src: Direktori yang berisi source code Java, termasuk paket Controller, Database, Model, dan View. 
+
+dist: Berisi file JAR yang dapat dijalankan dan library pihak ketiga yang diperlukan untuk menjalankan aplikasi. 
+
+nbproject: Berisi file konfigurasi yang spesifik untuk proyek NetBeans. 
 
 
 ### Cara Menjalankan
