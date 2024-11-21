@@ -218,7 +218,7 @@ asdfghj
 wertyu
 <img width="1274" alt="Tangkapan Layar 2024-11-21 pukul 21 42 54" src="https://github.com/user-attachments/assets/5f1f51b0-92ea-4061-beaf-9a10db23f0e0">
 
-### Mode User
+### Menu User
 
 sdfghjk
 <img width="1276" alt="Tangkapan Layar 2024-11-21 pukul 21 54 30" src="https://github.com/user-attachments/assets/55b7878e-278f-4b82-8f8e-387884dd7877">
