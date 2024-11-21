@@ -64,14 +64,15 @@ C. Penanggung Jawab dan Study Club\
     > Setiap penanggung jawab harus mengurus satu atau banyak Study Club\ 
     > Setiap Study Club harus diurus oleh satu dan hanya satu penanggung jawab
 
-- Relasi\
+- Relasi
+  
 > Mahasiswa dengan Study Club : Relasi yang menunjukkan  Bahwa mahasiswa “ikut” study club. Mahasiswa “mengikuti” study club dan  study club “diikuti” mahasiswa.\
 > Admin dengan Study Club : Relasi yang menunjukkan  Bahwa admin “data” Study Club. Admin “mendata” study club dan study  club “didata” admin.\
 > Penanggung Jawab dengan Study Club : Relasi yang menunjukkan  Bahwa penanggung jawab “urus” Study Club. Penanggung jawab “mengurus”  Study Club. Study club “diurus” studyy club  
 
  - Kardinalitas
    
-A. Kardinalitas Mahasiswa dan Study Club:\
+A. Kardinalitas Mahasiswa dan Study Club: \
     > Setiap mahasiswa dapat mengikuti satu dan banyak Study Club  (Mahasiswa → Study Club: One-to-Many).\
     > Setiap Study Club harus diikuti oleh satu dan hanya satu mahasiswa  (Study Club → Mahasiswa: Many-to-One).  
 
