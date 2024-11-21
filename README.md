@@ -1,1 +1,1 @@
-# Project-Akhir-PBO-Sistem-Pengelolaan-Data-Studi-Club-Mahasiswa-Sistem-Informasi
+# SISTEM PENGELOLAAN DATA STUDI CLUB MAHASISWA SISTEM INFORMASI
