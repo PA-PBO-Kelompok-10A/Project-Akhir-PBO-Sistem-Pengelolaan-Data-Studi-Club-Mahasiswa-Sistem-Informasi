@@ -50,36 +50,38 @@ Ketika user login sebagai Mahasiswa, maka user dapat melakukan menampilkan data 
 - Logical
 ![WhatsApp Image 2024-11-21 at 19 27 48](https://github.com/user-attachments/assets/32c757ad-5718-453f-9144-33cdddaccc80)
 
-- ERDish 
-A. Mahasiswa dan Study Club /t
-    1. Setiap mahasiswa dapat mengikuti satu atau banyak study club. 
-    2. Setiap study club harus diikuti oleh satu dan hanya satu mahasiswa
+- ERDish
+  
+A. Mahasiswa dan Study Club 
+    > Setiap mahasiswa dapat mengikuti satu atau banyak study club.
+    > Setiap study club harus diikuti oleh satu dan hanya satu mahasiswa
        
 B. Admin dan Study Club 
-    1. Setiap admin harus mendata oleh satu dan hanya satu Study Club. 
-    2. Setiap Study Club harus didata oleh satu dan banyak pengajar. 
+    > Setiap admin harus mendata oleh satu dan hanya satu Study Club. 
+    > Setiap Study Club harus didata oleh satu dan banyak pengajar. 
 
 C. Penanggung Jawab dan Study Club 
-    1. Setiap penanggung jawab harus mengurus satu atau banyak Study Club  
-    2. Setiap Study Club harus diurus oleh satu dan hanya satu penanggung jawab. 
+    > Setiap penanggung jawab harus mengurus satu atau banyak Study Club  
+    > Setiap Study Club harus diurus oleh satu dan hanya satu penanggung jawab. 
 
-- Relasi 
-1. Mahasiswa dengan Study Club : Relasi yang menunjukkan  Bahwa mahasiswa “ikut” study club. Mahasiswa “mengikuti” study club dan  study club “diikuti” mahasiswa.  
-2. Admin dengan Study Club : Relasi yang menunjukkan  Bahwa admin “data” Study Club. Admin “mendata” study club dan study  club “didata” admin. 
-3. Penanggung Jawab dengan Study Club : Relasi yang menunjukkan  Bahwa penanggung jawab “urus” Study Club. Penanggung jawab “mengurus”  Study Club. Study club “diurus” studyy club  
+- Relasi
+> Mahasiswa dengan Study Club : Relasi yang menunjukkan  Bahwa mahasiswa “ikut” study club. Mahasiswa “mengikuti” study club dan  study club “diikuti” mahasiswa.
+> Admin dengan Study Club : Relasi yang menunjukkan  Bahwa admin “data” Study Club. Admin “mendata” study club dan study  club “didata” admin.
+> Penanggung Jawab dengan Study Club : Relasi yang menunjukkan  Bahwa penanggung jawab “urus” Study Club. Penanggung jawab “mengurus”  Study Club. Study club “diurus” studyy club  
 
- - Kardinalitas 
+ - Kardinalitas
+   
 A. Kardinalitas Mahasiswa dan Study Club:  
-    1. Setiap mahasiswa dapat mengikuti satu dan banyak Study Club  (Mahasiswa → Study Club: One-to-Many).  
-    2. Setiap Study Club harus diikuti oleh satu dan hanya satu mahasiswa  (Study Club → Mahasiswa: Many-to-One).  
+    > Setiap mahasiswa dapat mengikuti satu dan banyak Study Club  (Mahasiswa → Study Club: One-to-Many).
+    > Setiap Study Club harus diikuti oleh satu dan hanya satu mahasiswa  (Study Club → Mahasiswa: Many-to-One).  
 
 B. Kardinalitas Admin dan Study Club:  
-    1. Setiap Admin harus mendata satu dan hanya satu Study Club (Admin  → Study Club: One-to-One).  
-    2. Setiap Study Club harus diajar oleh satu dan banyak pengajar (Study  Club → Pengajar: One-to-Many).  
+    > Setiap Admin harus mendata satu dan hanya satu Study Club (Admin  → Study Club: One-to-One).  
+    > Setiap Study Club harus diajar oleh satu dan banyak pengajar (Study  Club → Pengajar: One-to-Many).  
 
 C. Kardinalitas Penanggung Jawab dan Study Club:  
-    1. Setiap penanggung jawab harus mengurus satu atau banyak Study Club  (Penanggung Jawab → Study Club: One to-Many).  
-    2. Setiap Study Club harus diurus oleh satu dan hanya satu penanggung  jawab (Study Club → Penanggung Jawab: Many-to-One). 
+    > Setiap penanggung jawab harus mengurus satu atau banyak Study Club  (Penanggung Jawab → Study Club: One to-Many).  
+    > Setiap Study Club harus diurus oleh satu dan hanya satu penanggung  jawab (Study Club → Penanggung Jawab: Many-to-One). 
 
 - Entitas dan Atribut  
 
