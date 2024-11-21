@@ -61,13 +61,14 @@ B. Admin dan Study Club\
     > Setiap Study Club harus didata oleh satu dan banyak pengajar
 
 C. Penanggung Jawab dan Study Club \
-    > Setiap penanggung jawab harus mengurus satu atau banyak Study Club \ 
+    > Setiap penanggung jawab harus mengurus satu atau banyak Study Club 
+    
     > Setiap Study Club harus diurus oleh satu dan hanya satu penanggung jawab
 
 - Relasi
   
-> 1. Mahasiswa dengan Study Club : Relasi yang menunjukkan  Bahwa mahasiswa “ikut” study club. Mahasiswa “mengikuti” study club dan  study club “diikuti” mahasiswa.\
-> 2. Admin dengan Study Club : Relasi yang menunjukkan  Bahwa admin “data” Study Club. Admin “mendata” study club dan study  club “didata” admin.\
+> 1. Mahasiswa dengan Study Club : Relasi yang menunjukkan  Bahwa mahasiswa “ikut” study club. Mahasiswa “mengikuti” study club dan  study club “diikuti” mahasiswa.
+> 2. Admin dengan Study Club : Relasi yang menunjukkan  Bahwa admin “data” Study Club. Admin “mendata” study club dan study  club “didata” admin.
 > 3. Penanggung Jawab dengan Study Club : Relasi yang menunjukkan  Bahwa penanggung jawab “urus” Study Club. Penanggung jawab “mengurus”  Study Club. Study club “diurus” study club  
 
  - Kardinalitas
