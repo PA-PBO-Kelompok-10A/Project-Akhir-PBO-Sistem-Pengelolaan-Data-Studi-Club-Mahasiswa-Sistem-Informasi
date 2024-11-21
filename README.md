@@ -60,8 +60,8 @@ B. Admin dan Study Club\
     > Setiap admin harus mendata oleh satu dan hanya satu Study Club\
     > Setiap Study Club harus didata oleh satu dan banyak pengajar
 
-C. Penanggung Jawab dan Study Club\
-    > Setiap penanggung jawab harus mengurus satu atau banyak Study Club\ 
+C. Penanggung Jawab dan Study Club \
+    > Setiap penanggung jawab harus mengurus satu atau banyak Study Club \ 
     > Setiap Study Club harus diurus oleh satu dan hanya satu penanggung jawab
 
 - Relasi
