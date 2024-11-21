@@ -188,53 +188,53 @@ Hirarki kelas dibuat berdasarkan program aplikasi yang telah dibuat, dalam aplik
 ##  5. SCREENSHOT OUTPUT
 
 ### Menu Admin
-qwertyuio
+Menu Login
+Dimana user akan memasukkan NIM dan password untuk mengakses menu admin, 
 <img width="1276" alt="Tangkapan Layar 2024-11-21 pukul 21 54 30" src="https://github.com/user-attachments/assets/abc6b1c6-0b65-400f-a52c-a3e6bd4c2a39">
 
-qwertyui
+Menu Utama Admin
+Ini tampilan menu utama ketika user berhasil login sebagai admin
 <img width="1280" alt="Tangkapan Layar 2024-11-21 pukul 08 13 13" src="https://github.com/user-attachments/assets/7d4362b5-b7f4-468e-a416-dbe635efd5b8">
 
-qwertyui
 <img width="1281" alt="Tangkapan Layar 2024-11-21 pukul 08 14 54" src="https://github.com/user-attachments/assets/04485182-7120-4454-a147-06ed6336fbe4">
 
-qwertyu
-<img width="1280" alt="Tangkapan Layar 2024-11-21 pukul 08 15 12" src="https://github.com/user-attachments/assets/a3a7d0f0-33fb-466e-8906-67bac97bc9a5">
-
-qwertyu
+Menu Create Data
+Ini merupakan menu untuk membuat data study club baru dengan cara menginputkan pada kolom teks yang ada
 <img width="1280" alt="Tangkapan Layar 2024-11-21 pukul 08 16 53" src="https://github.com/user-attachments/assets/46cd8f06-3fce-4595-b6db-35a49595a824">
 
-qwertyui
 <img width="1278" alt="Tangkapan Layar 2024-11-21 pukul 08 17 10" src="https://github.com/user-attachments/assets/31219621-dec5-4b2f-9663-2a3fd280b974">
 
-qwert
+Menu Read Data
+Disini user dapat melihat data yang baru dibuat tadi dan data yang ada di dalam database juga akan ditampilkan, di menu ini juga terdapat fitur lain yaitu sorting dan searching
 <img width="1276" alt="Tangkapan Layar 2024-11-21 pukul 21 39 38" src="https://github.com/user-attachments/assets/04d8e33c-11d5-4d5b-a87a-698ad7d12cb6">
 
-qwerty
+Menu Update Data
+User dapat mengubah data yang ada dengan cara klik pada baris data yang ingin diubah lalu input data baru pada kolom teks
 <img width="1275" alt="Tangkapan Layar 2024-11-21 pukul 21 40 15" src="https://github.com/user-attachments/assets/837c84a0-fa8f-4904-bacf-58f8abaefea3">
 
-asdfghj
+Menu Delete Data
+User dapat melakukan penghapusan data dengan cara klik pada baris yang ingin dihapus lalu klik pada button delete dibawah
 <img width="1271" alt="Tangkapan Layar 2024-11-21 pukul 21 42 35" src="https://github.com/user-attachments/assets/7ae0e7e2-f36a-4c43-86b5-71b716b38da5">
 
-wertyu
 <img width="1274" alt="Tangkapan Layar 2024-11-21 pukul 21 42 54" src="https://github.com/user-attachments/assets/5f1f51b0-92ea-4061-beaf-9a10db23f0e0">
 
 ### Menu Mahasiswa
 
-sdfghjk
+Menu Login
+Untuk ingin akses ke menu mahasiswa, user dapat melakukan login seperti biasa dan jika tidak memiliki akun user dapat melakukan registrasi
 <img width="1276" alt="Tangkapan Layar 2024-11-21 pukul 21 54 30" src="https://github.com/user-attachments/assets/55b7878e-278f-4b82-8f8e-387884dd7877">
 
-wertyu
+Menu Utama Mahasiswa
+Setelah user berhasil login menjadi mahasiswa, user akan langsung masuk ke mnu utama mahasiswa
 <img width="1275" alt="Tangkapan Layar 2024-11-21 pukul 22 04 31" src="https://github.com/user-attachments/assets/d4938c31-da2e-4385-9f12-5847415fb783">
 
-QTYUI
-<img width="1440" alt="Tangkapan Layar 2024-11-21 pukul 22 04 40" src="https://github.com/user-attachments/assets/8acda8d0-335e-4015-ad44-9eaf6df24396">
-
-WSDCTFVYGBH
 <img width="1273" alt="Tangkapan Layar 2024-11-21 pukul 22 04 47" src="https://github.com/user-attachments/assets/454fc88c-c302-4fd6-bf88-a5a971b71c67">
 
-DYFGUH
+Menu Study Club
+Ini merupakan menu dimana user dapat melihat daftar study club yang ada,  juga user dapat melakukan search berdasarkan nama study club dan melakukan sorting
 <img width="1245" alt="Tangkapan Layar 2024-11-21 pukul 22 04 57" src="https://github.com/user-attachments/assets/8ee208d1-2a99-4a46-b0d4-31adab93251b">
 
-DXFGHGJ
+Menu Jadwal Study Club
+Sama seperti menu sebelumnya, namun bedanya disni hanya ditampilkan nama study club beserta jadwalnya saja
 <img width="1278" alt="Tangkapan Layar 2024-11-21 pukul 22 05 11" src="https://github.com/user-attachments/assets/52123a2b-8c4f-4be4-99eb-d8f413c32502">
 
