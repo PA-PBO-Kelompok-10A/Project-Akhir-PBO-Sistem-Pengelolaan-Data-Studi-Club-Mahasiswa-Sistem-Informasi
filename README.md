@@ -61,21 +61,21 @@ Untuk menjalankan aplikasi ini, Anda dapat menggunakan file JAR yang disediakan 
 <img width="245" alt="Tangkapan Layar 2024-11-21 pukul 21 00 10" src="https://github.com/user-attachments/assets/789647fb-effb-4873-96cc-606b77385edd">
 
 
-### 1. FLOWCHART
+## 1. FLOWCHART
 
 Dari sebuah Aplikasi Sistem Pengelolaan Data Studi Club Mahasiswa Sistem Iformasi, dibuatkanlah sebuah alur diagram atau yang biasa dikenal dengan sebutan flowchart. Flowchart digunakan untuk menjelaskan alur dari sebuah program. Berikut adalah flowchart dari Aplikasi Sistem Pengelolaan Data Studi Club Mahasiswa Sistem Iformasi:
 
-Menu Utama
+### Menu Utama
 
 ![Menu Login drawio](https://github.com/user-attachments/assets/5be75ba2-4ce4-43e9-b480-1c72ae50d06a)
 
 
-Menu Mahasiswa
+### Menu Mahasiswa
 
 ![Menu Mahasiswa drawio (1)](https://github.com/user-attachments/assets/59b569ff-3179-4d74-b40f-e386d4c2284d)
 
 
-Menu Admin
+### Menu Admin
 
 ![Menu Admin drawio (1)](https://github.com/user-attachments/assets/2291fc18-a666-453f-bd50-9e70f1b56c17)
 
@@ -85,7 +85,7 @@ Ketika user login sebagai admin, maka user dapat melakukan pengelolaan terhadap 
 
 Ketika user login sebagai Mahasiswa, maka user dapat melakukan menampilkan data jenis-jenis study club dan juga jadwal pelaksanaan study club.Jika user memilih menu Study Club maka user akan ditampilkan daftar dari jenis-jenis Study Club yang dibuat oleh Admin. Jika user memilih menu Jadwal Study Club maka user akan ditampilkan jadwal pelaksaan study club berdasarkan jenis-jenis study club. Jika sudah melakukan semua menu pada Mahasiswa, user dapat menekan tombol home agar dapat kembali ke menu Mahasiswa.
 
-### 2. ERD
+## 2. ERD
 - Relational
 ![WhatsApp Image 2024-11-21 at 19 27 47](https://github.com/user-attachments/assets/4b8f563f-7b8a-455a-bfbc-29c82a7a4a2d)
 
@@ -159,7 +159,7 @@ C. Kardinalitas Penanggung Jawab dan Study Club: 
     > kelas_angkatan : Informasi kelas dan angkatan penanggung jawab 
 
 
-###  3. HIRARKI KELAS
+##  3. HIRARKI KELAS
 
 ![Hirarki drawio](https://github.com/user-attachments/assets/a77bef19-b39b-4952-937e-51511f17d3c3)
 
@@ -168,7 +168,7 @@ Hirarki kelas dibuat berdasarkan program aplikasi yang telah dibuat, dalam aplik
 
 
 
-###  4. SCREENSHOT CODINGAN DAN PENJELASAN
+##  4. SCREENSHOT CODINGAN DAN PENJELASAN
 
 -  LoginController
 
@@ -185,7 +185,7 @@ Hirarki kelas dibuat berdasarkan program aplikasi yang telah dibuat, dalam aplik
 
 
 
-###  5. SCREENSHOT OUTPUT
+##  5. SCREENSHOT OUTPUT
 
 ### Menu Admin
 qwertyuio
