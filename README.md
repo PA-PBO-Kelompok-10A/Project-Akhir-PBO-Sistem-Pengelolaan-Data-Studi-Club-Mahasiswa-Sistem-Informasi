@@ -293,7 +293,7 @@ Dan yang terakhir ada metode updateStudyClub yang berfungsi untuk memperbarui da
 
 Kode di bawah mendefinisikan kelas databaseConnection, yang digunakan untuk mengelola koneksi database.Berikut adalah penjelasan singkat tentang kelas databaseConnection dan metodenya:
 
-  -  public Connection connection = null;: Variabel connection adalah objek yang digunakan untuk mewakili koneksi ke database. Ini adalah bagian penting untuk berinteraksi dengan database.
+  -  public Connection connection = Variabel connection adalah objek yang digunakan untuk mewakili koneksi ke database. Ini adalah bagian penting untuk berinteraksi dengan database.
   -  public Statement statement;, public PreparedStatement preparedStatement;, dan public ResultSet resultSet;: Variabel ini digunakan untuk menyimpan objek Statement, PreparedStatement, dan ResultSet yang digunakan dalam operasi SQL. Ini memungkinkan Anda untuk menjalankan pernyataan SQL dan mengelola hasilnya.
   -  
 
