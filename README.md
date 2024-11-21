@@ -221,5 +221,20 @@ wertyu
 ### Mode User
 
 sdfghjk
+<img width="1276" alt="Tangkapan Layar 2024-11-21 pukul 21 54 30" src="https://github.com/user-attachments/assets/55b7878e-278f-4b82-8f8e-387884dd7877">
 
 wertyu
+<img width="1275" alt="Tangkapan Layar 2024-11-21 pukul 22 04 31" src="https://github.com/user-attachments/assets/d4938c31-da2e-4385-9f12-5847415fb783">
+
+QTYUI
+<img width="1440" alt="Tangkapan Layar 2024-11-21 pukul 22 04 40" src="https://github.com/user-attachments/assets/8acda8d0-335e-4015-ad44-9eaf6df24396">
+
+WSDCTFVYGBH
+<img width="1273" alt="Tangkapan Layar 2024-11-21 pukul 22 04 47" src="https://github.com/user-attachments/assets/454fc88c-c302-4fd6-bf88-a5a971b71c67">
+
+DYFGUH
+<img width="1245" alt="Tangkapan Layar 2024-11-21 pukul 22 04 57" src="https://github.com/user-attachments/assets/8ee208d1-2a99-4a46-b0d4-31adab93251b">
+
+DXFGHGJ
+<img width="1278" alt="Tangkapan Layar 2024-11-21 pukul 22 05 11" src="https://github.com/user-attachments/assets/52123a2b-8c4f-4be4-99eb-d8f413c32502">
+
