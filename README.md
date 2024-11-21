@@ -51,7 +51,7 @@ Ketika user login sebagai Mahasiswa, maka user dapat melakukan menampilkan data 
 ![WhatsApp Image 2024-11-21 at 19 27 48](https://github.com/user-attachments/assets/32c757ad-5718-453f-9144-33cdddaccc80)
 
 - ERDish 
-A. Mahasiswa dan Study Club 
+A. Mahasiswa dan Study Club /t
     1. Setiap mahasiswa dapat mengikuti satu atau banyak study club. 
     2. Setiap study club harus diikuti oleh satu dan hanya satu mahasiswa
        
