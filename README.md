@@ -11,7 +11,7 @@ KELOMPOK 10A
   4.Rofi Hanif Fauzan (2309116026
 
 
-# Deskripsi Project
+## Deskripsi Project
 
 Di era digital saat ini, pemanfaatan teknologi informasi sangat penting, termasuk dalam lingkungan pendidikan tinggi pada jurusan Sistem Informasi. Pengelolaan data mahasiswa yang efisien menjadi kebutuhan utama, terutama terkait kegiatan study club, baik akademik maupun non-akademik, yang membantu mahasiswa mengembangkan kemampuan dan bersosialisasi.
 
@@ -53,7 +53,7 @@ nbproject: Berisi file konfigurasi yang spesifik untuk proyek NetBeans.
 
 Untuk menjalankan aplikasi ini, Anda dapat menggunakan file JAR yang disediakan di dalam direktori dist. Pastikan bahwa semua library yang terdapat di dist/lib sudah termasuk dalam classpath aplikasi.
 
-## Struktur Project 
+### Struktur Project 
 <img width="275" alt="Tangkapan Layar 2024-11-21 pukul 21 00 54" src="https://github.com/user-attachments/assets/9f8816c5-6daf-45b3-9f1d-9a5af70ae763">
 
 <img width="285" alt="Tangkapan Layar 2024-11-21 pukul 21 00 33" src="https://github.com/user-attachments/assets/aa56b5a8-eec4-4bd4-9ed6-adc28b67785c">
@@ -61,7 +61,7 @@ Untuk menjalankan aplikasi ini, Anda dapat menggunakan file JAR yang disediakan 
 <img width="245" alt="Tangkapan Layar 2024-11-21 pukul 21 00 10" src="https://github.com/user-attachments/assets/789647fb-effb-4873-96cc-606b77385edd">
 
 
-## 1. FLOWCHART
+### 1. FLOWCHART
 
 Dari sebuah Aplikasi Sistem Pengelolaan Data Studi Club Mahasiswa Sistem Iformasi, dibuatkanlah sebuah alur diagram atau yang biasa dikenal dengan sebutan flowchart. Flowchart digunakan untuk menjelaskan alur dari sebuah program. Berikut adalah flowchart dari Aplikasi Sistem Pengelolaan Data Studi Club Mahasiswa Sistem Iformasi:
 
@@ -85,7 +85,7 @@ Ketika user login sebagai admin, maka user dapat melakukan pengelolaan terhadap 
 
 Ketika user login sebagai Mahasiswa, maka user dapat melakukan menampilkan data jenis-jenis study club dan juga jadwal pelaksanaan study club.Jika user memilih menu Study Club maka user akan ditampilkan daftar dari jenis-jenis Study Club yang dibuat oleh Admin. Jika user memilih menu Jadwal Study Club maka user akan ditampilkan jadwal pelaksaan study club berdasarkan jenis-jenis study club. Jika sudah melakukan semua menu pada Mahasiswa, user dapat menekan tombol home agar dapat kembali ke menu Mahasiswa.
 
-## 2. ERD
+### 2. ERD
 - Relational
 ![WhatsApp Image 2024-11-21 at 19 27 47](https://github.com/user-attachments/assets/4b8f563f-7b8a-455a-bfbc-29c82a7a4a2d)
 
@@ -159,7 +159,7 @@ C. Kardinalitas Penanggung Jawab dan Study Club: 
     > kelas_angkatan : Informasi kelas dan angkatan penanggung jawab 
 
 
-##  3. HIRARKI KELAS
+###  3. HIRARKI KELAS
 
 ![Hirarki drawio](https://github.com/user-attachments/assets/a77bef19-b39b-4952-937e-51511f17d3c3)
 
@@ -168,7 +168,7 @@ Hirarki kelas dibuat berdasarkan program aplikasi yang telah dibuat, dalam aplik
 
 
 
-##  4. SCREENSHOT CODINGAN DAN PENJELASAN
+###  4. SCREENSHOT CODINGAN DAN PENJELASAN
 
 -  LoginController
 
@@ -185,7 +185,7 @@ Hirarki kelas dibuat berdasarkan program aplikasi yang telah dibuat, dalam aplik
 
 
 
-##  5. SCREENSHOT OUTPUT
+###  5. SCREENSHOT OUTPUT
 
 ### Menu Admin
 qwertyuio
