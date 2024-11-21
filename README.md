@@ -56,9 +56,7 @@ Untuk menjalankan aplikasi ini, Anda dapat menggunakan file JAR yang disediakan 
 ## Struktur Project 
 <img width="275" alt="Tangkapan Layar 2024-11-21 pukul 21 00 54" src="https://github.com/user-attachments/assets/9f8816c5-6daf-45b3-9f1d-9a5af70ae763">
 
-
 <img width="285" alt="Tangkapan Layar 2024-11-21 pukul 21 00 33" src="https://github.com/user-attachments/assets/aa56b5a8-eec4-4bd4-9ed6-adc28b67785c">
-
 
 <img width="245" alt="Tangkapan Layar 2024-11-21 pukul 21 00 10" src="https://github.com/user-attachments/assets/789647fb-effb-4873-96cc-606b77385edd">
 
