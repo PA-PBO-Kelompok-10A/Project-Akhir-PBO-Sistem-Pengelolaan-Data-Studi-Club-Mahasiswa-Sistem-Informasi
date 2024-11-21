@@ -29,11 +29,13 @@ Menu Utama
 
 Menu Mahasiswa
 
-![Menu Mahasiswa SC drawio](https://github.com/user-attachments/assets/d46ad664-831c-4fab-b0cf-2562a3cc4e9e)
+![Menu Mahasiswa drawio (1)](https://github.com/user-attachments/assets/59b569ff-3179-4d74-b40f-e386d4c2284d)
+
 
 Menu Admin
 
-![Menu Admin SC drawio](https://github.com/user-attachments/assets/c8bab607-1714-468e-acda-9a79b67002e1)
+![Menu Admin drawio (1)](https://github.com/user-attachments/assets/2291fc18-a666-453f-bd50-9e70f1b56c17)
+
 
 
 ## 2. ERD
