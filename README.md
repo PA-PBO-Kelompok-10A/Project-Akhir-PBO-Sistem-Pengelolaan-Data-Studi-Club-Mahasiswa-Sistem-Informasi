@@ -19,7 +19,7 @@ Study Club Mahasiswa Sitem Informasi adalah
 
 
 
-## Flowchart
+## 1. FLOWCHART
 
 Dari sebuah Aplikasi Sistem Pengelolaan Data Studi Club Mahasiswa Sistem Iformasi, dibuatkanlah sebuah alur diagram atau yang biasa dikenal dengan sebutan flowchart. Flowchart digunakan untuk menjelaskan alur dari sebuah program. Berikut adalah flowchart dari Aplikasi Sistem Pengelolaan Data Studi Club Mahasiswa Sistem Iformasi:
 
@@ -36,5 +36,19 @@ Menu Admin
 ![Menu Admin SC drawio](https://github.com/user-attachments/assets/c8bab607-1714-468e-acda-9a79b67002e1)
 
 
-## ERD
+## 2. ERD
+
+
+
+
+##  3. HIRARKI KELAS
+
+
+
+##  4. SCREENSHOT CODINGAN DAN PENJELASAN
+
+
+
+
+##  5. SCREENSHOT OUTPUT
 
