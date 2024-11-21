@@ -78,17 +78,17 @@ C. Penanggung Jawab dan Study Club
 
  - Kardinalitas
    
-A. Kardinalitas Mahasiswa dan Study Club: \
-    > Setiap mahasiswa dapat mengikuti satu dan banyak Study Club  (Mahasiswa → Study Club: One-to-Many).\
-    > Setiap Study Club harus diikuti oleh satu dan hanya satu mahasiswa  (Study Club → Mahasiswa: Many-to-One).  
+A. Kardinalitas Mahasiswa dan Study Club: 
+> Setiap mahasiswa dapat mengikuti satu dan banyak Study Club  (Mahasiswa → Study Club: One-to-Many).
+> Setiap Study Club harus diikuti oleh satu dan hanya satu mahasiswa  (Study Club → Mahasiswa: Many-to-One).  
 
-B. Kardinalitas Admin dan Study Club:  \
-    > Setiap Admin harus mendata satu dan hanya satu Study Club (Admin  → Study Club: One-to-One).  \
-    > Setiap Study Club harus diajar oleh satu dan banyak pengajar (Study  Club → Pengajar: One-to-Many).  
+B. Kardinalitas Admin dan Study Club:  
+> Setiap Admin harus mendata satu dan hanya satu Study Club (Admin  → Study Club: One-to-One).
+> Setiap Study Club harus diajar oleh satu dan banyak pengajar (Study  Club → Pengajar: One-to-Many).  
 
-C. Kardinalitas Penanggung Jawab dan Study Club:  \
-    > Setiap penanggung jawab harus mengurus satu atau banyak Study Club  (Penanggung Jawab → Study Club: One to-Many).  \
-    > Setiap Study Club harus diurus oleh satu dan hanya satu penanggung  jawab (Study Club → Penanggung Jawab: Many-to-One). 
+C. Kardinalitas Penanggung Jawab dan Study Club:  
+> Setiap penanggung jawab harus mengurus satu atau banyak Study Club  (Penanggung Jawab → Study Club: One to-Many).
+> Setiap Study Club harus diurus oleh satu dan hanya satu penanggung  jawab (Study Club → Penanggung Jawab: Many-to-One). 
 
 - Entitas dan Atribut  
 
