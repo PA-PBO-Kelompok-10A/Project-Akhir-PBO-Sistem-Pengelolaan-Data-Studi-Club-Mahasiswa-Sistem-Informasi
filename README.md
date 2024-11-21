@@ -171,16 +171,70 @@ Hirarki kelas dibuat berdasarkan program aplikasi yang telah dibuat, dalam aplik
 ##  4. SCREENSHOT CODINGAN DAN PENJELASAN
 
 -  LoginController
+  
+    mengimpor model dari Database,Admin,dan Mahasiswa yang digunakan untuk memanggil data dari database , kemudian untuk Admin dan Mahasiswa digunakan untuk memanggil atribut berupa ID user dan password dari kedua objek tersebut yang nantinya dipanggil untuk login. lalu mengimpor javax.swing.JOptionPane; untuk digunakan dalam inputan dan pesan.
+
+![image](https://github.com/user-attachments/assets/c8767c87-7324-458a-b735-adb1f66b16cd)
+
+Login Controller berfungsi untuk melakukan authentifikasi terhadap akun user yang terdapat pada database, yang dimana disini juga merupakan bagian validasi sebelum nantinya akan dipanggil untuk di eksekusi di tombol pada GUI login
+
+  -  Terdapat variabel idUser.isEmpty || password.isEmpty yang berfungsi untuk mengecek apakah inputan tersebut kosong.
+  -  Jika terdapat kesalahan atau kebenaran pada operasi authentifikasi pada sistem maka akan menampilkan pesan menggunakan JOptionpane.showMessageDialog.
+  -  Fungsi dari role.equalsIgnoreCase membandingkan kedua string dan akan mengembalikan nilai true dengan apa yang diinputkan sesuai dengan data.
+  -  Database.closeResources berfungsi untuk menutup interaksi terhadap database.
 
 ![image](https://github.com/user-attachments/assets/34ec2c53-6e9b-4fd0-bc3a-73a163683040)
 
 ![image](https://github.com/user-attachments/assets/54a2c311-2448-47f5-94b8-333a2197f4cf)
 
+-  Admin.java
 
+    Pada gambar dibawah ini merupakan kode untuk mengimpor HeadlessException yang befungsi jika aplikasi dijalankan tanpa ada dukungan tampilan grafis maka disitulah HeadlessException ini berfungsi, kemudian SQLException berfungsi untuk menampilkan kesalahan yang terjadi pada operasi sistem, dan yang terakhir JOptionPane untuk melakukan inputan dan juga menampilkan pesan.
 
+![image](https://github.com/user-attachments/assets/28c0ed8e-74f2-4475-aed1-87de3ea642fe)
+
+Kelas java admin adalah kelas turunan dari kelas user, yang dimana pada kelas ini memiliki atribut turunan dari kelas user yang memiliki jenis role final yaitu admin, fungsi dari admin ini yaitu untuk mengelola koneksi database berupa data study club yang dikelola.
+
+![image](https://github.com/user-attachments/assets/f9c8b563-9de0-459b-a547-2d0538eef8a7)
+
+Metode login pada admin digunakan untuk mencoba login ke database dengan memeriksa apakah terdapat kesesuaian username ID dan password di tabel admin. ini adalah metode publik dan final yang mengembalikan true jika login berhasil dan false jika gagal. Dalam metode ini:
+
+  -  Terdapat koneksi ke database melalui Database.connection.
+  -  Kemudian terdapat querry SQL untuk memeriksa dan mengambil username ID dan password untuk disiapkan dan dieksekusi.
+  -  Kesalahan pada SQL akan ditangani dalam blok catch dan SQLException untuk menampilkan kesalahan yang tidak sesuai.
+  -  Jika login berhasil maka akan mengembalikan dengan cara return true jika tidak berhasil maka akan return false.
+
+![image](https://github.com/user-attachments/assets/16048d8c-8064-4479-aa87-82a34d6d6164)
+
+- Mahasiswa.java
+
+    Pada gambar dibawah ini merupakan kode untuk mengimpor HeadlessException yang befungsi jika aplikasi dijalankan tanpa ada dukungan tampilan grafis maka disitulah HeadlessException ini berfungsi, kemudian SQLEcxeption berfungsi untuk menampilkan kesalahan yang terjadi pada operasi sistem, dan yang terakhir JOptionPane untuk melakukan inputan dan juga menampilkan pesan.
+
+![image](https://github.com/user-attachments/assets/6e45e206-b36d-4f8b-9724-67d25f8d3d88)
+
+Kelas java Mahasiswa adalah kelas turunan kedua dari kelas user, yang dimana pada kelas ini memiliki atribut turunan dari kelas user yang memiliki jenis role final yaitu mahasiswa, fungsi dari mahasiswa ini yaitu untuk meninjau data dari study club yang dimana nantinya data tersebut diambil dari database tabel study club yang akan ditampilkan dalam menu Study Club dan Jadwal Study Club pada Mahasiswa.
     
+![image](https://github.com/user-attachments/assets/bbdd46ce-d85f-4bde-92e9-eac0801f9b5b)
 
+pada gambar dibawah ini merupakan fungsi dari getname untuk memanggil dan memeriksa nama dengan mencari nim menggunaka querry SQL yang dimana terdapat beberapa Metode yaitu:
 
+  -  Terdapat koneksi ke database melalui Database.connection.
+  -  Kemudian terdapat querry SQL untuk memeriksa nama dan nim untuk disiapkan dan dieksekusi.
+  -  Kesalahan pada SQL akan ditangani dalam blok catch dan SQLException untuk menampilkan kesalahan yang tidak sesuai.
+
+kemudian dibawah ini terdapat daftarMahasiswa yang berfungsi untuk menambahkan data ke dalam daftar Mahasiswa , disini memiliki koneksi ke database yaitu Database.connection.
+
+![image](https://github.com/user-attachments/assets/920f6a2f-f3bd-4d17-9cdd-94f7be608e30)
+
+-  PenanggungJawab.java
+
+    Pada gambar dibawah ini merupakan kode untuk mengimpor HeadlessException yang befungsi jika aplikasi dijalankan tanpa ada dukungan tampilan grafis maka disitulah HeadlessException ini berfungsi, kemudian SQLEcxeption berfungsi untuk menampilkan kesalahan yang terjadi pada operasi sistem, dan yang terakhir JOptionPane untuk melakukan inputan dan juga menampilkan pesan.
+
+![image](https://github.com/user-attachments/assets/9ca1cbff-e7b1-408e-9d6d-a95356f1afba)
+
+Kelas penanggung jawab adalah kelas yang berfungsi untuk menyimpan atribut sebagai penanggung jawab study club.
+
+![image](https://github.com/user-attachments/assets/9e6abb41-33d5-430d-90b1-0538c269b517)
 
 
 
