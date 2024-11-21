@@ -161,6 +161,11 @@ C. Kardinalitas Penanggung Jawab dan Study Club: 
 
 ##  3. HIRARKI KELAS
 
+![Hirarki drawio](https://github.com/user-attachments/assets/a77bef19-b39b-4952-937e-51511f17d3c3)
+
+
+Hirarki kelas dibuat berdasarkan program aplikasi yang telah dibuat, dalam aplikasi Sistem Pengelolaan Data Studi Club Mahasiswa Sistem Informasi ini, kami menerapkan konsep hirarki dengan metode Inheritence yang terdapat superclass berupa User, yang memiliki subclass yaitu Admin dan Mahasiswa. Dalam hirarki ini superclass User berfungsi untuk menyimpan atribut-atribut umum seperti ID user, nama, dan password. kemudian pada Subclass Admin ini memiliki fungsi untuk mengelola data pada Study Club, sedangkan Subclass Mahasiswa memiliki fungsi untuk melakukan tinjauan dan melihat isi dari Study Club tersebut. Penggunaan hirarki ini dapat membantu dalam pemeliharaan sistem pengelolaan study club dan juga dapat membuat aplikasi perpustakaan menjadi efisien dan terstruktur.
+
 
 
 ##  4. SCREENSHOT CODINGAN DAN PENJELASAN
